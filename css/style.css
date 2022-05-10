@@ -1,0 +1,940 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.nur>li>a
+{
+    color: black !important;
+    margin-left: 10px;
+}
+.nur>li>a:hover
+{
+    color: red !important;
+}
+.small
+{
+    height: 53px;
+    width: 134px;
+    margin-left: 10px;
+    background-color: #00938D  !important;
+    color: black;
+}
+.small:hover
+{
+    background-color: rgb(37, 35, 35) !important;
+}
+/************************************************** background image ******************* */
+  .vi
+  {
+      
+      background-image: url(https://santhemes.com/tidytheme/aducat/images/header.jpg);
+      background-repeat: no-repeat !important;
+      height: 500px;
+      width: 100%;
+      /* margin-top: px; */
+      
+  }
+      /************************** end of background images ****************************** */
+      /* hover  ********************************************* */
+ .dropdown 
+{
+   
+   /* height: 600px; */
+   width: 200px;
+   background-color: rgb(240, 240, 232);
+   display: none;
+  
+   transition: all .2s ease-in-out;
+   
+}
+.dropdown li a
+{
+    color: black !important;
+  
+    font-size: 17px;
+      margin-left: 30px !important;
+     /* border: 2px black solid; */
+     transition: all  .3s ease-in-out;
+    
+}
+.dropdown li a:hover
+{
+ padding-left: 20px;
+  color: rgb(253, 21, 21) !important;
+  text-decoration: none;
+}
+.ran:hover .dropdown 
+{
+    display: block;
+    z-index: 2;
+    margin-left: 0px;
+    position: absolute;
+   
+}
+.townhall
+{
+    /* background-color: blanchedalmond; */
+    position: fixed;
+    z-index: 1;
+}
+.daf
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.fut
+{
+    color: white;
+   
+   padding-top: 286px;
+   font-size: 50px;
+   font-weight: bold;
+   
+}
+.fut1
+{
+    color: white;
+}
+.red1
+{
+    margin-top: 273px;
+}
+.ra
+{
+    font-weight: 400;
+    font-size: 25px;
+}
+.rcb
+{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 35px;
+    background-color: whitesmoke;
+    margin-left: 2px;
+}
+.rcb:hover
+{
+    background-color: greenyellow !important;
+}
+.ram
+{
+    position: relative;
+    
+}
+.csk
+{
+    position: absolute;
+  top: 992px;
+  right: 347px;
+  z-index: 9;
+}
+.flora
+{
+    position: absolute;
+    right: 337px;
+    top: 1247px;
+}
+.reply
+{
+    margin-left: 370px;
+    color: black;
+}
+.date
+{
+    margin-left: 20px;
+}
+.comma
+{
+    margin-left: 18px;
+    color: black;
+}
+.jadu
+{
+    margin-left: 97px !important;
+}
+.comments
+{
+    padding-top: 50px !important;
+}
+.from
+{
+    margin-top: 70px;
+    background-color: white;
+}
+.fillthis
+{
+    height: 49px;
+    width:100%;
+    border-radius: 2px;
+    border: 1px inset white;
+    background-color: white;
+}
+.rt
+{
+    width: 100%;
+    height: 200px;
+    margin-top: 59px !important;
+    background-color: whitesmoke;
+}
+
+.music
+{
+    height: 50px;
+    width: 119px;
+    margin-top: 20px;
+    background-color: #00938D !important;
+ transition-duration: 3s;
+}
+.music:hover
+{
+    background-color: rgb(44, 40, 40) !important;
+}
+
+.run
+{
+    height: 70px;
+    
+    width: 100%;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.run1
+{
+    height: 55px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: rgb(248, 239, 223);
+    border: 0px solid white !important;
+    
+}
+.music1
+{
+    
+        height: 50px;
+        width: 63px;
+        margin-top: 4px;
+        background-color: #00938D !important;
+        border-radius: 10px !important;
+        transition-duration: 3s;
+        margin-right: 84px;
+    
+}
+.music1:hover
+{
+    background-color: rgb(44, 40, 40) !important;
+}
+.globe
+{
+    height: 86px;
+    width: 110px;
+
+}
+.photu
+{
+    float: right;
+}
+.tag 
+{
+ 
+    margin-top: 0px !important;
+    
+}
+.kora
+{
+    margin-left: 23px;
+}
+.paragraph
+{
+    height: 91px;
+    width: 214px;
+    /* background-color: red; */
+    float: right;
+}
+.paragraph span a
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.fr
+{
+    float: left;
+ position: absolute;
+ top: 169px;
+ right:125px;
+}
+.fr1
+{
+    float: left;
+ position: absolute;
+ top: 279px;
+ right:125px;
+}
+.fr2
+{
+    float: left;
+ position: absolute;
+ top: 385px;
+ right:125px;
+}
+.fest
+{
+    color:rgb(27, 221, 255);
+}
+/* ***************************************footer ********************** */
+.fog
+{
+   
+    margin-top: 86px;
+    background-color:whitesmoke;
+    border:1px solid #E8D6D6
+    
+}
+.army
+{
+    padding-top: 70px;
+}
+.bella li
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.bella li a
+{
+    color: black !important;
+}
+.rajeev
+{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.lens
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin: left 4px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.lens1
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.lens2
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.lens3
+{
+    float: left;
+    background-color: wheat;
+    height: 28px;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 24px;
+    border-radius: 28px;
+}
+.set 
+{
+    color: black;
+    margin-top: 30px;
+}
+.set li 
+{
+    margin-top: 16px;
+}
+.set li a
+{
+    color: black;
+    
+}
+.rahu1
+{
+    margin-top: 10px;
+    height: 40px;
+    width: 221px;
+    background-color:whitesmoke;
+    border: 3px solid white !important;
+}
+.rahul
+{
+    height: 80px;
+    background-color: whitesmoke;
+    width: 221px;
+    margin-top: 10px;
+    border: 3px solid white !important;
+}
+.lastone
+{
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: #00938D  !important;
+    overflow: hidden;
+
+}
+.cta li
+
+{
+    
+       padding-top: 10px;
+      
+        letter-spacing: 0.5px;
+        color: #1b1818;
+        list-style: square;
+    
+
+}
+.cta
+{
+    margin-left: 30px;
+}
+.viku
+
+{
+    float: left;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(43, 40, 40);
+    background-color:rgb(251, 253, 253);
+    border-radius: 6px;
+    margin-left: 10px;
+ 
+}
+.viku p
+{
+    margin-top: 5px;
+    text-decoration: white;
+    color: black;
+    
+}
+.viku:hover
+{
+    background-color: rgb(38, 245, 217) !important;
+    text-decoration: none !important;
+}
+                                               /****************** contact us page *********************************** */
+ 
+.abcd
+{
+ width: 100%;
+ margin-top: 116px;
+
+}
+.avs
+{
+    background-color: whitesmoke;
+    margin-top: 129px;
+}
+.cons
+{
+    background-color: white;
+}
+.red
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 2px orangered solid;
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+.heading>h4
+{
+    margin-left: 80px;
+    margin-top: 13px;
+}
+.plano0
+{
+    padding-left: 80px !important;
+
+}
+.plano1
+{
+    margin-left: 80px !important;
+
+}
+.plano2
+{
+    margin-left: 80px;
+
+}
+.holi
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(78, 74, 65);
+    font-size: 25px !important;
+}
+.fola
+{
+    font-weight: bold;
+  
+}
+.icons
+{
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    width: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #00938D;
+}
+.timber
+{
+    font-size: 20px !important;
+    margin-left: 12px !important;
+    margin-top: 10px !important;
+    color:white !important;
+
+}
+.icons:hover
+{
+background-color: orange !important;
+}
+.kab
+{
+    font-weight: bold;
+}
+.formrow
+{
+    margin-top: 20px;
+}
+.op
+{
+    height: 55px !important;
+    width: 282px !important;
+    border: 0px white solid !important;
+}
+.op2
+{
+    height: 150px !important;
+    width: 595px !important;
+    background-color: whitesmoke !important;
+    margin-top: 20px !important;
+}
+.op3
+{
+    height: 55px !important;
+    width: 145px !important;
+    margin-top: 20px !important;
+    background-color: #00938D !important;
+}
+.daf
+{
+    position: fixed;
+    z-index: 122;
+    margin-left: 100px !important;
+   background-color: whitesmoke;
+}
+.image
+{
+  padding-left: 130px !important;
+}
+.SS
+{
+    padding-left: 170px !important;
+    margin-left: 119px;
+}
+.thing
+{
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 111;
+}
+   /************ course details +***************** */
+.fut34
+{
+
+
+    color: white;
+   
+   padding-top: 281px;
+   font-size: 50px;
+   font-weight: bold;
+   
+}
+.imagess
+{
+    margin-top: 104px;
+    width: 100%;
+}
+.mouse
+{
+    background-color: orangered !important;
+    height: 45px;
+    width: 139px;
+    position: absolute;
+    top: 452px;
+    right: 553px;
+    
+
+}
+.jai
+{
+    padding-left: 10px !important;
+    padding-top: 18px !important;
+    
+}
+.otc
+{
+    color: gold !important;
+}
+.rerr
+{
+ margin-top: 123px !important;
+ margin-left: 11px !important;
+ 
+}
+.ex
+{
+    margin-left: 0px;
+    height: 54px;
+    width: 178px;
+    text-align: center;
+    background-color: #dfe7e9;
+    border-radius: 3px;
+    border-left: solid 2px black;
+}
+.ex p
+{
+    margin-top: 10px;
+}
+.rsrs
+{
+    color: rgb(34, 209, 240);
+}
+.mymy
+{
+    padding-top: 84px !important;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.mymy1
+{
+   
+    padding-left: 5px;
+    padding-top: 2px !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+.fake1 a
+{
+    margin-left: 1px !important;
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    float: left;
+    padding-left: 5px;
+    color: rgb(37, 35, 35) !important;
+    background-color: rgb(253, 247, 247);
+}
+.fake1 a:hover
+{
+    background-color: rgb(38, 245, 217) !important;
+}
+.fake a
+{
+    margin-left: 20px !important;
+    font-size: 20px;
+    padding-left: 5px;
+    height: 28px !important;
+    width: 28px !important;
+    border-radius: 14px;
+    color: rgb(37, 35, 35) !important;
+    background-color: rgb(245, 241, 241);
+    float: left;
+
+}
+.fake a:hover
+{
+    background-color: rgb(27, 221, 255) !important;
+}
+.jaf
+{
+    margin-top: 112px;
+    float: left;
+}
+.trt1 
+{
+    margin-top: 28px !important;
+    float: left;
+    margin-left: 20px; 
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+}
+.trt
+{
+    margin-top: 28px !important;
+    float: left;
+    padding-left: 90px;
+    font-size: 17px !important;
+    color: gray;
+}
+.trtbook
+{
+    margin-top: 28px !important;
+    float: left;
+    padding-left: 136px;
+    font-size: 17px !important;
+    color: gray;
+}
+.fad
+{
+    height: 55px;
+    width: 128px;
+    background-color: rgb(31, 235, 235) !important;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.count
+{
+    padding-top: 23px !important;
+
+}
+.box a
+{
+    color: gray;
+    font-size: 17px;
+}
+  /* ***************************contact us mian page ******************************** */
+  .lala
+  {
+      height: 65px;
+      background-color: #00938D;
+      margin-left: 125px;
+      margin-top: 29px;
+      text-align: center;
+      width: 84px;
+      line-height: 68px;
+      
+      border-radius: 6px;
+  }
+  .lala:hover
+  {
+      background-color: tomato !important;
+  }
+  .subh
+  {
+      margin-top: 30px !important;
+      border: 0px white solid !important;
+      border-radius: 5px;
+      transition-duration: 2s;
+      /* background-color: rgb(43, 3, 3); */
+  }
+  .subh:hover
+  {
+      background-color: white !important;
+      box-sizing: border-box;
+      box-shadow: white 2px 2px 2px !important;
+  }
+  .pick
+  {
+       font-size: 32px !important;
+       color: white;
+       margin-top: 14px !important; 
+       font-weight: 200 !important;
+       margin-left: -1px;
+  }
+  /* ********************************images box css. css******************************** */
+  .papu
+{
+    margin-top: 232px;
+    position: relative;
+
+}
+.too
+{
+    width: 173px;
+    height: 115px;
+    background-color: whitesmoke;
+    
+    position: absolute;
+    top: 336px;
+    border-radius: 10px;
+}
+.susu
+{
+    margin-left: 13px;
+    color: gold;
+}
+.jai
+{
+    margin-left: 35px;
+    margin-top: 7px;
+}
+    .too1
+    {
+         width: 200px;
+         height: 115px;
+        background-color: whitesmoke;
+         border-radius: 15px;
+         position: absolute;
+         top: 396px;
+         opacity: 0.7;
+         left: 425px;
+
+    }
+    .di
+{
+    margin-top: 5px;
+    margin-left:16px;
+    color:springgreen;
+}
+.musichh
+{
+    margin-top: 365px;
+   margin-left: 66px;
+    font-weight: bold;
+}
+ .note
+ {
+     margin-left: 114px;
+     margin-top: 11px;
+     line-height: 27px;
+ }
+
+.small22
+{
+    height: 53px;
+    width: 162px;
+    margin-left: 115px;
+    margin-top: 20px;
+    background-color: #00938D !important;
+}
+.small22:hover
+{
+    background-color: rgb(83, 78, 78) !important;
+}
+.mint a
+{
+    margin: 10px 0px 0px 10px !important;
+
+}
+.ramo
+{
+    background-color: #E5F0EB;
+    margin-top: 90px;
+    height: 381px;
+
+    width: 100%;
+}
+  /* ******************************chintu.css************************ */
+  .chintu
+{
+    margin-top: 8rem;
+}
+.had
+{
+    margin-top: 8rem;
+}
+.had1
+{
+    margin-top: 2rem;
+    line-height: 28px;
+}
+.mysore
+{
+    margin-top: 1rem;
+}
+.mysore1
+{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 2px;
+}
+.rata
+{
+    margin-top: 133px !important;
+    background-color: #d9eedc;
+    border-radius: 7px;
+    height: 250px;
+
+}
+.pool
+{
+    margin-top: 40px !important;
+}
+.rata
+{
+    margin-top: 150px !important;
+}
+.zebra
+{
+    height: 50px;
+    width: 163px;
+    background-color: #00938D !important;
+    position: absolute;
+    top: 113px;
+    right: 99px;
+
+}
+.zebra:hover
+{
+    background-color: darkslategray !important;
+}
